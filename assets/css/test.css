@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+
+    background-color: #000
+}
+.card-one div{
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    height: 23.9vh;
+    margin: 0 50.5%;
+    margin-bottom: 4%;
+}
+.card-one  article:nth-child(2){
+    color: white;
+    text-align: center;
+}
+.card-one h1{
+    margin-bottom: 2%;
+}
+.card-one h2{
+    font-size: 6em;
+    line-height: 72%;
+    letter-spacing: 6px;
+}
+.card-one p{
+    margin-top: 2%;
+    font-size: 1.3em;
+}
+.card-one article:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 10% 0;
+    padding-bottom: 14%;
+}
+.card-one a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding:2% 4% ;
+    font-size: 1.6em;
+    color: white;
+    transition: 0.7s ease-in;
+}
+.card-one a:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    
+}
+.card-tow article:nth-child(1) p{
+    font-size: 7em;
+    font-weight: 700;
+    color: white;
+    width: 80%;
+    margin-left: 8%;
+    line-height: 105%;
+    margin-bottom: 5%;
+}
+.card-tow article:nth-child(2){
+    position: relative;
+    color: white;
+    padding-bottom: 9%;
+}
+.card-tow article:nth-child(2) h1{
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 3px;
+    margin-left: 8%;
+}
+.card-tow article:nth-child(2) h1:nth-child(1){
+    padding-top: 2%;
+}
+.card-tow article:nth-child(2) h2{
+    font-size: 7.5em;
+    margin-left: 8%;
+    margin-bottom: 5px;
+}
+
+.card-tow article:nth-child(2) img{
+    width: 38%;
+    position: absolute;
+    right: 0%;
+    top: -13%;
+}
+.card-thri{
+    position: relative;
+}
+.card-thri article:nth-child(1){
+    padding-left: 30%;
+    margin-bottom: 16%;
+    padding-bottom: 10%;
+}
+.card-thri article:nth-child(1) h1{
+    font-size: 5.8em;
+    padding-top: 38%;
+    width: 45%;
+    line-height: 90%;
+}
+.card-thri article:nth-child(1) p{
+    font-size: 1.1em;
+    width: 40%;
+    line-height: 160%;
+}
+.card-thri article:nth-child(1) img:nth-child(1){
+    position: absolute;
+    width: 25%;
+    right: 8%;
+    top: -4%;
+}
+.card-thri article:nth-child(1) img:nth-child(2){
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 5%;
+}
+.card-thri article:nth-child(1) img:nth-child(3){
+    position: absolute;
+    width: 22%;
+    top: 34%;
+    right: 0%;
+}
+.card-thri article:nth-child(2){
+    margin-top: 10%;
+    padding: 21.5% 0;
+}
+.card-thri article:nth-child(2) p{
+    font-size: 1.3em;
+    font-weight: 100;
+    width: 35%;
+    margin-left: 32%;
+    line-height: 160%;
+}
+.card-thri article:nth-child(2) img:nth-child(1){
+    width: 25%;
+        position: absolute;
+        top: 45.5%;
+        left: 16%;
+}
+.card-thri article:nth-child(2) img:nth-child(2){
+    width: 24%;
+        position: absolute;
+        top: 55%;
+        right: 16%;
+}
+.card-thri article:nth-child(2) img:nth-child(3){
+    width: 20%;
+        position: absolute;
+        top: 71%;
+        left: 0%;
+}
+.card-thri article:nth-child(2) img:nth-child(4){
+    width: 30%;
+        position: absolute;
+        bottom: -4%;
+        right: 20%;
+}
+.card-for{
+padding-bottom: 19.5%;
+    color: white;
+    display: flex;
+    padding-bottom: 50%;
+}
+.card-for div:nth-child(1){
+    margin-top: 11%;
+    margin-left: 8%;
+}
+.card-for div:nth-child(1) h3{
+    font-size: 1.4em;
+    margin-bottom: 6%;
+}
+.card-for div:nth-child(1) h2{
+    font-size: 7em;
+    line-height: 88%;
+}
+.card-for div:nth-child(2){
+    position: relative;
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.card-for div:nth-child(2) p:nth-child(1){
+    font-size: 2.3em;
+    line-height: 115%;
+    width: 75%;
+    margin-bottom: 3%;
+}
+.card-for div:nth-child(2) p:nth-child(2){
+    font-size: 1.3em;
+    margin-bottom: 3%;
+}
+.card-for div:nth-child(2) img:nth-child(3){
+width: 82%;
+position: absolute;
+top: 155%;
+right: 70%;
+}
+.card-for div:nth-child(2) img:nth-child(4){
+    width: 55%;
+    position: absolute;
+    top: 250%;
+    right: 0%;
+    animation: myfirst 5s infinite;
+    animation-timing-function: linear;
+
+  
+
+    }
+
+    @keyframes myfirst {
+        0%   {right: 0% ; bottom: 0px;}
+        25%  { right: 05% ; bottom: 0px;}
+        50%  {right: 5% ; bottom: -20%;}
+        75%  { right: 0% ; bottom: -20%;}
+        100% { right: 0% ; bottom: 0px;}
+      }
+.card-for div:nth-child(2) img:nth-child(5){
+    width: 45%;
+    position: absolute;
+    top: 195%;
+    right: 38%;
+    }
+
+.card-finf{
+    margin-top: 30%;
+    padding-bottom: 60%;
+        color: #000;
+        display: flex;
+    }
+    .card-finf div:nth-child(1){
+        margin-top: 11%;
+        margin-left: 8%;
+    }
+    .card-finf div:nth-child(1) h3{
+        font-size: 1.4em;
+        margin-bottom: 6%;
+    }
+    .card-finf div:nth-child(1) h2{
+        font-size: 7em;
+        line-height: 88%;
+    }
+    .card-finf div:nth-child(2){
+        margin-top: 13%;
+        margin-left: 8%;
+        position: relative;
+    }
+    .card-finf div:nth-child(2) p:nth-child(1){
+        font-size: 2.3em;
+        line-height: 115%;
+        width: 75%;
+        margin-bottom: 3%;
+    }
+    .card-finf div:nth-child(2) p:nth-child(2){
+        font-size: 1.3em;
+        margin-bottom: 3%;
+    }
+    .card-finf div:nth-child(2) img:nth-child(4){
+        width: 35%;
+        position: absolute;
+        top: 180%;
+        right:  87%;
+        }
+        .card-finf div:nth-child(2) img:nth-child(3){
+            width: 75%;
+            position: absolute;
+            top: 105%;
+            right: 20%;
+            }
+.card-sex{
+    position: relative;
+    overflow: hidden;
+    padding: 3%;
+    
+}            
+.card-sex div:nth-child(1){
+    height: 100px;
+    width: 1000px;
+    background-color: #fff;
+    font-size: 70px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30%;
+    right: -15%;
+    overflow: hidden;
+
+}
+.card-sex div:nth-child(1) h1{
+position: absolute;
+animation: anime 10s infinite linear;
+
+}
+@keyframes anime {
+    0%{
+        left: 0;
+    }
+    50%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+.card-sex article:nth-child(2) h4{
+    font-size: 1.3em;
+    margin-top: 10%;
+    color: #fff;
+    margin-left: 8%;
+}
+.card-sex article:nth-child(2) p{
+    font-size: 2.3em;
+    line-height: 115%;
+    width: 33%;
+    margin-top: 2%;
+    color: #fff;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+.card-sex article:nth-child(2) a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding:2% 4% ;
+    font-size: 1.6em;
+    color: white;
+    transition: 0.7s ease-in;
+    margin-left: 8%;
+}
+.card-sex article:nth-child(2) a:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    
+}
+.card-sex  article:nth-child(3){
+    margin-left: 8%;
+    position: relative;
+}
+.card-sex  article:nth-child(3) img{
+    width: 30px;
+    margin-top: 5%;margin-left: 8px;
+}
+.card-sex  article:nth-child(3) p{
+    color: #fff;
+    margin-top: 2%;
+    line-height: 230%;
+}
+.card-sex article:nth-child(3) div{
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+}
+.card-sex article:nth-child(3) div img{
+    width: 20%;
+}
